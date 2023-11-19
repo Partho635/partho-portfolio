@@ -1,26 +1,40 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px){
-  .half-width{
+@media only screen and (max-width: 600px) {
+  .half-width {
     width: 95%;
     margin-top: 35px;
   }
-  selection{
+
+  selection {
     min-height: 30vh;
+    margin-bottom: 40px;
   }
-  h1{
+
+  h1 {
     font-size: 40px;
     margin-bottom: 30px;
     font-weight: 700;
     line-height: 1.25;
   }
-  .half-width img{
+
+  .half-width img {
     width: 80%;
     margin: auto;
   }
-  .experience-area{
+
+  .experience-area {
     margin-top: 100px;
+  }
+
+  .experience-area h2 {
+    font-size: 30px;
+  }
+  .single-experience{
+    height: 400px;
+    width: 90%;
+    background: #fff;
   }
 }
