@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+  .half-width{
+    width: 95%;
+    margin-top: 35px;
+  }
+  selection{
+    min-height: 30vh;
+  }
+  h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .half-width img{
+    width: 80%;
+    margin: auto;
+  }
+  .experience-area{
+    margin-top: 100px;
+  }
+}
